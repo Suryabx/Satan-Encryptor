@@ -25,9 +25,7 @@
 
 | Main Interface | Encrypt/Decrypt |
 |----------------|-----------------|
-| ![Main UI](assets/screenshot.png) | ![Encrypt Demo](assets/Screenshot1.png) |
-
-> 📁 Add your screenshots and demos in the `assets/` folder.
+| ![Main UI](assets/screenshot.png) | ![Encrypt Demo](assets/Screenshot1.png) 
 
 ---
 
