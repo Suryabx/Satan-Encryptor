@@ -35,7 +35,7 @@
 
 ```bash
 # Clone the repo
-git clone https://github.com/<your-username>/satan.git
+git clone https://github.com/Suryabx/Satan-AES-256-File-Folder-Encryptor.git
 cd satan
 
 # Create virtual environment
