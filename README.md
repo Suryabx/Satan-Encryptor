@@ -1,33 +1,51 @@
-# =============================================
-# 🔐 Satan - AES-256 File & Folder Encryptor
-# =============================================
 
-Satan is an open-source encryption tool built in Python.
-It uses AES-256 encryption (CBC mode) to secure files
- and folders with a clean graphical interface.
+<p align="center">
+  <img src="assets/icon.png" width="120" alt="Satan Logo"/>
+  <h1 align="center">Satan 🔐</h1>
+  <p align="center"><strong>AES-256 File & Folder Encryptor</strong></p>
+  <p align="center">Secure any file or folder with a modern Python GUI powered by AES encryption.</p>
+</p>
 
-# 🔸 Features:
- • Encrypt and decrypt any file or folder
- • AES-256 encryption (CBC)
- • Secure key generator
- • GUI with dark/light theme
- • Settings saved automatically
- • Optional logging of all actions
- 
-# 🔸 Technology Stack:
- • Python 3.x
- • customtkinter (GUI)
- • pycryptodome (encryption)
-# 🔸 Usage:
-  1. Select a file or folder
-  2. Enter or generate an encryption key
-  3. Click Encrypt or Decrypt
-#
-🛠 Packaged into .exe for Windows using PyInstaller
-🧱 Fully modular and extensible architecture
-#
-# 👤 Author: Surya B
-# 📝 License: MIT
-#
- GitHub: https://github.com/<your-username>/satan
-# =============================================
+---
+
+## 🌟 Features
+
+- 🔐 AES-256 encryption (CBC mode)
+- 📂 Encrypt/decrypt any file or folder
+- 🧬 Generate secure encryption keys
+- 🌓 Toggle dark/light theme
+- 💾 Save settings automatically
+- 📜 MIT licensed and open-source
+- 🧊 Packaged as `.exe` with icon (for Windows)
+- 🧱 Modular and maintainable architecture
+
+---
+
+## 📸 Screenshots
+
+| Main Interface | Encrypt/Decrypt |
+|----------------|-----------------|
+| ![Main UI](assets/screenshot.png) | ![Encrypt Demo](assets/demo.gif) |
+
+> 📁 Add your screenshots and demos in the `assets/` folder.
+
+---
+
+## 🚀 Getting Started
+
+### 🖥️ Run from Source
+
+```bash
+# Clone the repo
+git clone https://github.com/<your-username>/satan.git
+cd satan
+
+# Create virtual environment
+python -m venv .venv
+.venv\Scripts\activate  # Windows
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Launch the app
+python main.py
