@@ -36,7 +36,7 @@
 ```bash
 # Clone the repo
 git clone https://github.com/Suryabx/Satan-AES-256-File-Folder-Encryptor.git
-cd satan
+cd Satan-AES-256-File-Folder-Encryptor
 
 # Create virtual environment
 python -m venv .venv
