@@ -1,0 +1,14 @@
+# Satan Encryptor Suite - Python Requirements
+# Basic version uses only standard library
+# For enhanced encryption, install cryptography:
+
+# cryptography>=3.4.8
+
+# Optional dependencies for enhanced features:
+# pillow>=8.0.0          # For image file handling
+# pycryptodome>=3.10.0   # Alternative crypto library
+# pyinstaller>=4.0       # For creating executable
+
+# Note: The basic version works with Python standard library only
+# Install cryptography for AES-256 encryption support:
+# pip install cryptography
