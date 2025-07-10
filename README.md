@@ -1,4 +1,4 @@
-# Satan Encryptor Suite - Basic Tkinter Version
+# Satan Encryptor Suite
 
 A simple yet powerful encryption application built with Python's tkinter library. This version provides core encryption functionality with a plugin-based architecture while using only standard library components.
 
