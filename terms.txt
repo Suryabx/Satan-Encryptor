@@ -1,35 +1,40 @@
-TERMS AND CONDITIONS
+GRANT OF LICENSE
+This software, "Satan Encryptor Suite," is licensed, not sold. You are granted a limited, non-exclusive, non-transferable, revocable license to install and use this software for your personal, non-commercial use only. All rights not expressly granted herein are reserved by Surya B.
 
-Please read the following terms and conditions carefully before installing or using this software.
+RESTRICTIONS
+You agree not to:
 
-1. LICENSE
-This software is licensed under the MIT License. By installing or using this software, you agree to the terms of the MIT License, which allows for free use, modification, and distribution with proper attribution.
+Modify, adapt, translate, reverse engineer, decompile, disassemble, or attempt to derive the source code of the software.
 
-2. USE AT YOUR OWN RISK
-This application is provided "as-is" without any warranties. The authors are not responsible for any damage, data loss, or legal consequences resulting from the use or misuse of this software.
+Distribute, sublicense, lease, rent, loan, or otherwise transfer the software to any third party.
 
-3. ENCRYPTION RESPONSIBILITY
-It is the user's responsibility to safely store their encryption key(s). If you lose your encryption key, your data will be permanently inaccessible. We do not offer a recovery service.
+Use the software for any illegal activities, including but not limited to the concealment of stolen, pirated, or sensitive data that violates applicable law.
 
-4. RESTRICTIONS
-You agree not to use this software for any illegal activities, including but not limited to the concealment of stolen, pirated, or sensitive data that violates applicable law.
+Remove, alter, or obscure any copyright, trademark, or other proprietary notices on the software.
 
-5. DATA PRIVACY
-This application performs all encryption and decryption locally on your machine. It does not transmit or store your data externally.
+USE AT YOUR OWN RISK
+This application is provided "as-is" without any warranties, express or implied. The author, Surya B, is not responsible for any damage, data loss, or legal consequences resulting from the use or misuse of this software. You assume all risks associated with the use of this software.
 
-6. THIRD-PARTY DISTRIBUTION
-If you redistribute or modify this application, you must preserve this Terms and Conditions document and the MIT License.
+ENCRYPTION RESPONSIBILITY
+It is the user's sole responsibility to safely store their encryption key(s) and passwords. If you lose your encryption key or password, your data will be permanently inaccessible. We do not offer a recovery service, nor can we recover lost keys or data.
 
-7. UPDATES
-We may provide software updates from time to time. You are not obligated to install updates, but they may include security patches or new features.
+DATA PRIVACY
+This application performs all encryption and decryption locally on your machine. It does not transmit or store your data externally, nor does it collect any personal data or usage information.
 
-8. SUPPORT
-This is an open-source project maintained voluntarily. There is no guaranteed technical support.
+OWNERSHIP
+The "Satan Encryptor Suite" software, including all intellectual property rights, remains the sole property of Surya B.
 
-9. ACCEPTANCE
+UPDATES
+We may provide software updates from time to time. You are not obligated to install updates, but they may include security patches, bug fixes, or new features. We reserve the right to discontinue updates at any time.
+
+SUPPORT
+This software is provided without guaranteed technical support. Any support provided is at the sole discretion of Surya B.
+
+TERMINATION
+This license is effective until terminated. Your rights under this license will terminate automatically without notice from Surya B if you fail to comply with any of these terms. Upon termination, you must cease all use of the software and destroy all copies, full or partial.
+
+ACCEPTANCE
 By installing or using this application, you agree to be bound by these terms. If you do not agree with these terms, do not install or use the application.
 
----
-Satan AES-256 Encryptor  
-Copyright (c) 2025 Surya B  
-https://github.com/Suryabx/Satan-AES-256-File-Folder-Encryptor
+Satan Encryptor Suite
+Copyright (c) 2025 Surya B

@@ -1,21 +1,41 @@
-MIT License
+LICENSE AGREEMENT FOR SATAN ENCRYPTOR SUITE
 
-Copyright (c) 2025 Surya B
+IMPORTANT: READ CAREFULLY BEFORE INSTALLING OR USING THIS SOFTWARE.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+This License Agreement ("Agreement") is a legal agreement between you (either an individual or a single entity) and Surya B ("Licensor") for the software product identified above, which includes computer software and associated media and documentation ("Software").
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+By installing, copying, accessing, or otherwise using the Software, you agree to be bound by the terms of this Agreement. If you do not agree to the terms of this Agreement, do not install, copy, access, or use the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+1. PROPRIETARY SOFTWARE
+The Software is proprietary and is licensed, not sold. All intellectual property rights in and to the Software, including its source code, object code, design, features, documentation, and all associated materials, are owned by the Licensor and are protected by copyright laws and international treaty provisions.
+
+2. GRANT OF LIMITED LICENSE
+The Licensor grants you a limited, non-exclusive, non-transferable, revocable license to install and use the Software for your personal, non-commercial purposes only, in accordance with the terms herein and the full Terms and Conditions document (terms.txt).
+
+3. RESTRICTIONS AND PROHIBITIONS
+You agree not to, and will not permit others to:
+a.  Modify, adapt, translate, reverse engineer, decompile, disassemble, or attempt to derive the source code of the Software.
+b.  Distribute, sublicense, lease, rent, loan, or otherwise transfer the Software, or any part thereof, to any third party.
+c.  Remove, alter, or obscure any copyright, trademark, or other proprietary notices on the Software.
+d.  Use the Software for any illegal, unauthorized, or unethical activities, including but not limited to the concealment of stolen, pirated, or sensitive data that violates applicable laws or regulations.
+e.  Use the Software in any manner that infringes upon the intellectual property rights of the Licensor or any third party.
+
+4. NO WARRANTIES
+THE SOFTWARE IS PROVIDED "AS IS," WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE SOFTWARE IS WITH YOU. SHOULD THE SOFTWARE PROVE DEFECTIVE, YOU ASSUME THE ENTIRE COST OF ALL NECESSARY SERVICING, REPAIR, OR CORRECTION.
+
+5. LIMITATION OF LIABILITY
+IN NO EVENT SHALL THE LICENSOR BE LIABLE FOR ANY DAMAGES (INCLUDING, WITHOUT LIMITATION, LOST PROFITS, BUSINESS INTERRUPTION, OR LOST INFORMATION) ARISING OUT OF YOUR USE OF ORED INABILITY TO USE THE SOFTWARE, EVEN IF THE LICENSOR HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. THIS LIMITATION OF LIABILITY SHALL APPLY TO THE FULLEST EXTENT PERMITTED BY LAW.
+
+6. DATA SECURITY AND RESPONSIBILITY
+You acknowledge that the security and recovery of your encrypted data are solely your responsibility. The Licensor is not responsible for any data loss, corruption, or unauthorized access resulting from the loss or compromise of your encryption keys or passwords, or from any other use or misuse of the Software. The Software performs encryption and decryption locally and does not transmit or store your data externally.
+
+7. GOVERNING LAW
+This Agreement shall be governed by and construed in accordance with the laws of [Your Jurisdiction Here, e.g., "India" or "the state of California, USA"], without regard to its conflict of laws principles.
+
+8. ENTIRE AGREEMENT
+This Agreement, together with the more detailed Terms and Conditions document (terms.txt), constitutes the entire agreement between you and the Licensor concerning the Software. In case of any conflict between this LICENSE file and terms.txt, the provisions of terms.txt shall prevail.
+
+9. ACCEPTANCE
+By installing, copying, or using the Software, you signify your acceptance of this Agreement and the full Terms and Conditions in terms.txt. If you do not agree to these terms, you are not authorized to use the Software.
+
+Copyright (c) 2025 Surya B. All rights reserved.
