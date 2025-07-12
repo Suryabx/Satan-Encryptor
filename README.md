@@ -32,9 +32,23 @@ python satan_encryptor_suite.py
 
 ## File Structure
 ```
+YourProjectFolder/
 ├── satan_encryptor_suite.py
-├── plugins/
+├── installer_script.nsi  <-- NSIS script should be here
 ├── assets/
+│   └── icon.png
+│   └── icon.ico          <-- This is where icon.ico should be
+├── plugins/
+│   └── ...
+├── languages/
+│   └── ...
+└── dist/                 <-- PyInstaller output folder
+    └── Satan Encryptor Suite/
+        └── Satan Encryptor Suite.exe
+        └── assets/
+        └── plugins/
+        └── languages/
+        └── ...
 ```
 
 ## Security Notes
