@@ -1120,7 +1120,7 @@ class CryptoTab(BaseTab):
             else:
                 raise ValueError("Unsupported key file extension. Use .pem or .key")
         except Exception as e:
-            logger.error(f"Error loading key from file {key_file_path}: {e}")
+            logger.error(f"Error loading key from file '{os.path.basename(key_file_path)}': {e}")
             raise ValueError(f"Failed to load key from file: {e}")
 
 
