@@ -1,4 +1,4 @@
-# 🔐 Satan Encryptor Suite
+#  Satan Encryptor Suite
 
 **A professional, plugin-based Python application for secure file encryption and decryption with a modern PyQt6 UI.**
 
@@ -24,7 +24,6 @@
 - ⚙️ Comprehensive settings, advanced logging viewer, theme support
 - 🆕 Dedicated "What's New" tab to highlight recent updates
 
----
 
 ## 🚀 Quick Start
 
@@ -39,7 +38,6 @@ cd SatanEncryptorSuite
 python3 -m venv .venv
 source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 ```
----
 
 ## 2. Create and Activate a Virtual Environment ##
 -  On Windows (CMD or PowerShell)
@@ -48,3 +46,89 @@ source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 python3 -m venv .venv
 .venv\Scripts\activate
 ```
+## On Linux / macOS (bash or zsh) ##
+
+```
+python3 -m venv .venv
+source .venv/bin/activate
+
+```
+You’ll see your terminal prompt change to (.venv) — this means the virtual environment is active.
+
+## To Deactivate the Virtual Environment (All Platforms) ##
+
+```
+deactivate
+```
+
+This exits the virtual environment and returns to the system Python environment.
+
+## Install Dependencies ##
+
+```
+pip install PyQt6 cryptography Pillow
+```
+
+ PyQt6 includes PyQt6-Qt6, PyQt6-sip. Pillow is for image handling.
+ 
+ ## Run the Application ##
+
+ ```
+ python satan_encryptor.py
+
+```
+### Plugins ###
+- You can easily extend Satan Encryptor Suite by adding new encryption algorithms.
+
+### Adding New Plugins ###
+- Add a _plugin.py file to the plugins/ directory.
+- The plugin must implement the EncryptorPlugin interface.
+
+## Example Plugins ##
+- fernet_plugin.py
+- aes_plugin.py
+- rsa_plugin.py
+
+## Project Structure ##
+
+```
+SatanEncryptorSuite/
+├── satan_encryptor_suite.py
+├── installer_script.nsi         # NSIS installer script
+├── assets/
+│   ├── icon.png
+│   └── icon.ico
+├── plugins/
+│   └── *.py (encryption plugins)
+├── languages/
+│   └── ...
+└── dist/
+    └── Satan Encryptor Suite/
+        ├── Satan Encryptor Suite.exe
+        ├── assets/
+        ├── plugins/
+        └── languages/
+```
+
+## Security Notes ##
+- Best practices when using encryption tools:
+- Use strong and unique passwords/keys
+- Store keys in a secure location
+- Losing the key = losing access to your files
+- For highly sensitive data, consider using additional security layers
+
+## Building Windows Executable ##
+- Create a standalone .exe using PyInstaller:
+
+```
+pip install pyinstaller
+pyinstaller --noconfirm --onefile --windowed --icon=assets/icon.png \
+  --add-data "plugins;plugins" --add-data "assets;assets" satan_encryptor_suite.py
+```
+
+- The output .exe will be in the dist/ directory.
+- Ensure all required folders (plugins, assets) are included.
+
+## License ##
+-This project is licensed under the MIT License.
+-See the LICENSE file for full license details.
