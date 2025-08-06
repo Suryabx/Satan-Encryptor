@@ -92,7 +92,7 @@ pip install PyQt6 cryptography Pillow
 ## Project Structure ##
 
 ```
-SatanEncryptorSuite/
+SatanEncryptor/
 ├── satan_encryptor_suite.py
 ├── installer_script.nsi         # NSIS installer script
 ├── assets/
