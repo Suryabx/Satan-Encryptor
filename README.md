@@ -1,66 +1,50 @@
-# Satan Encryptor Suite
+# 🔐 Satan Encryptor Suite
 
-A professional, plugin-based Python application for secure file encryption and decryption with a modern UI (customtkinter).
+**A professional, plugin-based Python application for secure file encryption and decryption with a modern PyQt6 UI.**
 
-## Features
-- AES-256, Fernet, and RSA encryption (plugin-based, easily extensible)
-- File/folder encryption & decryption
-- Secure key generation
-- Password strength meter
-- Settings, logging, and theme support
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Python](https://img.shields.io/badge/python-3.8%2B-blue.svg)
+![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20macOS-informational)
 
-## Quick Start
+---
+
+## ✨ Features
+
+- 🔒 AES-256, Fernet, and RSA encryption (plugin-based & easily extensible)
+- 📁 File/folder encryption & decryption with drag and drop support
+- 🔑 Secure key generation (symmetric and RSA key pairs)
+- 🧾 Automatic metadata files (settings saved with encrypted files)
+- 📂 Key file support for encryption/decryption (RSA key pairs or symmetric keys)
+- 🗝️ Improved Key Management tab (view, export, delete keys)
+- 📦 Compression support: Gzip, Bzip2, LZMA
+- 🧨 Secure file shredding (overwrite files multiple times)
+- ✅ File integrity check using SHA-256
+- 💻 CLI support for automated encryption tasks
+- 🔐 Password strength meter
+- ⚙️ Comprehensive settings, advanced logging viewer, theme support
+- 🆕 Dedicated "What's New" tab to highlight recent updates
+
+---
+
+## 🚀 Quick Start
+
+### 1. Clone and Enter the Project
+
 ```bash
-# Clone and enter the project
 git clone https://github.com/Suryabx/SatanEncryptorSuite.git
 cd SatanEncryptorSuite
 
-# Create and activate a virtual environment
-python3 -m venv .venv
-source .venv/bin/activate
 
-# Install dependencies
-pip install customtkinter cryptography Pillow
-
-# Run the app
-python satan_encryptor_suite.py
-```
-
-## Plugins
-- Add new algorithms by placing a `_plugin.py` file in the `plugins/` folder implementing `EncryptorPlugin`.
-- Example plugins: `fernet_plugin.py`, `aes_plugin.py`, `rsa_plugin.py`.
-
-## File Structure
-```
-YourProjectFolder/
-├── satan_encryptor_suite.py
-├── installer_script.nsi  <-- NSIS script should be here
-├── assets/
-│   └── icon.png
-│   └── icon.ico          <-- This is where icon.ico should be
-├── plugins/
-│   └── ...
-├── languages/
-│   └── ...
-└── dist/                 <-- PyInstaller output folder
-    └── Satan Encryptor Suite/
-        └── Satan Encryptor Suite.exe
-        └── assets/
-        └── plugins/
-        └── languages/
-        └── ...
-```
-
-## Security Notes
-- Use strong, unique passwords/keys
-- Store keys securely; losing them means losing access
-- For critical data, use professional-grade solutions
-
-## Build Executable (Windows)
 ```bash
-pip install pyinstaller
-pyinstaller --noconfirm --onefile --windowed --icon=assets/icon.png --add-data "plugins;plugins" --add-data "assets;assets" satan_encryptor_suite.py
+python3 -m venv .venv
+source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 ```
+---
 
-## License
-MIT. See `LICENSE` file.
+## 2. Create and Activate a Virtual Environment ##
+-  On Windows (CMD or PowerShell)
+
+```
+python3 -m venv .venv
+.venv\Scripts\activate
+```
