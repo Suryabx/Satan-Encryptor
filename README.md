@@ -1,4 +1,4 @@
-#  Satan Encryptor Suite
+#  SfManager
 
 **A professional, plugin-based Python application for secure file encryption and decryption with a modern PyQt6 UI.**
 
@@ -30,7 +30,7 @@
 ### 1. Clone and Enter the Project
 
 ```bash
-git clone https://github.com/Suryabx/SatanEncryptorSuite.git
+git clone https://github.com/Suryabx/SFManager.git
 cd SatanEncryptorSuite
 
 
@@ -74,7 +74,7 @@ pip install PyQt6 cryptography Pillow
  ## Run the Application ##
 
  ```
- python satan_encryptor.py
+ python SfManager.py
 
 ```
 ### Plugins ###
@@ -92,8 +92,8 @@ pip install PyQt6 cryptography Pillow
 ## Project Structure ##
 
 ```
-SatanEncryptor/
-├── satan_encryptor_suite.py
+SfManager/
+├── SfManager.py
 ├── installer_script.nsi         # NSIS installer script
 ├── assets/
 │   ├── icon.png
@@ -103,8 +103,8 @@ SatanEncryptor/
 ├── languages/
 │   └── ...
 └── dist/
-    └── Satan Encryptor Suite/
-        ├── Satan Encryptor Suite.exe
+    └── SfManager/
+        ├── SFManager.exe
         ├── assets/
         ├── plugins/
         └── languages/
@@ -123,7 +123,7 @@ SatanEncryptor/
 ```
 pip install pyinstaller
 pyinstaller --noconfirm --onefile --windowed --icon=assets/icon.png \
-  --add-data "plugins;plugins" --add-data "assets;assets" satan_encryptor_suite.py
+  --add-data "plugins;plugins" --add-data "assets;assets" SfManager.py
 ```
 
 - The output .exe will be in the dist/ directory.
